@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "MONTSERRAT";
+  src: url("../assets/fonts/Montserrat-Regular.woff2") format("woff2"),
+       url("../assets/fonts/Montserrat-Regular.woff") format("woff"),
+       url("../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MONTSERRAT";
+  src: url("../assets/fonts/Montserrat-SemiBold.woff2") format("woff2"),
+       url("../assets/fonts/Montserrat-SemiBold.woff") format("woff"),
+       url("../assets/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "MONTSERRAT", Arial, sans-serif;
+  background-color: #f5f2ee;
+  color: #1d1d1b;
+}
+
+section,
+nav,
+footer,
+.card,
+.form-control,
+.form-select,
+.btn {
+  border-radius: 0;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #1d1d1b;
+  color: #1d1d1b;
+  text-decoration: none;
+}
+
+.social-links svg {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar,
+footer {
+  background-color: #fff;
+}
+
+.banner-principal {
+  background: linear-gradient(rgba(10, 10, 10, 0.45), rgba(10, 10, 10, 0.45)), url("../assets/images/hero.jpg") center/cover no-repeat;
+  padding: 6rem 0;
+}
+
+.banner-principal .btn {
+  min-width: 160px;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+  filter: saturate(0.9);
+}
+
+.contact-highlight {
+  border: 1px solid #dcdcdc;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.contact-form button[type="submit"] {
+  min-width: 200px;
+}
+
+.contact-form .form-control,
+.contact-form .form-select,
+.contact-form textarea {
+  border-color: #dcdcdc;
+}
+
+.contact-form .form-control.is-valid,
+.contact-form .form-select.is-valid,
+.contact-form textarea.is-valid {
+  border-color: #198754;
+}
+
+.contact-form .form-control.is-invalid,
+.contact-form .form-select.is-invalid,
+.contact-form textarea.is-invalid {
+  border-color: #dc3545;
+}
