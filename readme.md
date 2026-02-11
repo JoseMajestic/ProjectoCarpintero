@@ -52,27 +52,6 @@ Sitio web estático para el taller **J.Suarez Carpintero**, especializado en mob
 
 ---
 
-## Cómo usarlo
-
-1. Clonar o descargar el directorio `jsuarez-arquitecto`.
-2. Abrir `index.html` en un navegador moderno.
-3. Navegar entre secciones mediante la barra superior o enlaces del hero.
-4. Probar el formulario de contacto (solo validación local, sin backend).
-
-El proyecto se organiza de forma sencilla y lógica:
-
-- `index.html`: página principal con banner, resumen de servicios y CTAs.
-- `html/servicios.html`: catálogo de servicios de carpintería.
-- `html/sobrenosotros.html`: filosofía del taller y equipo.
-- `html/contacto.html`: formulario validado y datos directos.
-- `css/style.css`: ajustes visuales mínimos sobre Bootstrap.
-- `js/form-validation.js`: validación de campos en el cliente.
-- `assets/images/`: fotografías locales del taller y proyectos.
-
-Esta estructura permite escalar el proyecto fácilmente y mantener una separación clara entre contenido y estilos.
-
----
-
 ## Decisiones de diseño
 
 El diseño es minimalista y propio de un taller de carpintería contemporáneo:
@@ -108,13 +87,3 @@ El formulario de contacto implementa validación en el lado del cliente mediante
 El objetivo es demostrar la lógica y la estructura de validación, no la implementación de un sistema de envío.
 
 ---
-
-## Conclusión
-
-Este proyecto demuestra la capacidad de:
-- Estructurar correctamente un sitio web corporativo.
-- Tomar decisiones técnicas justificadas.
-- Priorizar claridad, orden y mantenibilidad.
-- Aplicar buenas prácticas de desarrollo frontend sin sobreingeniería.
-
-El resultado es una solución realista y defendible para un taller de carpintería moderno, lista para escalar o integrarse con servicios backend en el futuro.
