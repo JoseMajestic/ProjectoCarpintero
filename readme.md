@@ -84,6 +84,6 @@ El formulario de contacto implementa validación en el lado del cliente mediante
 - Feedback visual de campos válidos e inválidos.
 - El formulario no envía datos reales, ya que el proyecto no incluye backend.
 
-El objetivo es demostrar la lógica y la estructura de validación, no la implementación de un sistema de envío.
+
 
 ---
